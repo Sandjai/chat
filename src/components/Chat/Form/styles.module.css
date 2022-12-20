@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+}
+
+fieldset {
+  border: none;
+}
+
+textarea {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid var(--medslateblue);
+}
+
+.btn {
+}
+
+form * {
+  display: block;
+  margin: 10px 0px;
+}

@@ -1,0 +1,17 @@
+.sidebar {
+  background-color: var(--light-grey);
+  border-right: 1px solid var(--medslateblue);
+  padding: 0px 20px;
+}
+ul {
+  padding: 0px;
+}
+li {
+  list-style-type: none;
+  padding: 7px 10px;
+  margin: 7px 0px;
+  font-weight: 700;
+  background-color: var(--white);
+  max-width: 160px;
+  word-wrap: break-word;
+}
